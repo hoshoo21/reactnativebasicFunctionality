@@ -12,6 +12,7 @@ import CalcScreen from './components/CalcScreen';
 import ColorScreen from './components/ColorScreen';
 import SquareScreen from './components/SquareScreen';
 import TextScreen from './components/TextScreen';
+import BoxScreen from './components/BoxScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -27,6 +28,7 @@ const App =()=>{
         <Stack.Screen name="Colors" component={ColorScreen} />
         <Stack.Screen name="Square" component={SquareScreen} />
         <Stack.Screen name="TextScreen" component={TextScreen} />
+        <Stack.Screen name ="Box Styling" component={BoxScreen} />
      
       </Stack.Navigator>
     </NavigationContainer>

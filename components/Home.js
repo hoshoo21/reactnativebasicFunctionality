@@ -38,6 +38,11 @@ const HomeScreen =(props)=>{
                         props.navigation.navigate("TextScreen");
                     }}
                 />
+                <Button title = "Box Screen"
+                    onPress={()=>{
+                        props.navigation.navigate("Box Styling");
+                    }}
+                />
 
            
         </View>
